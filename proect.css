@@ -1,0 +1,756 @@
+/* background: #0B1D26; */
+/* background: #FBD784; */
+/* font-family: Chronicle Display;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: 0.01em;
+text-align: left; */
+/* text color: #ffffff */
+/* icon/navigation/arrow_downward_24px */
+/* width: 1920px
+height: 4600px
+top: -512px
+left: -720px */
+/* желтый текст */
+/* font-family: Gilroy;
+font-size: 18px;
+font-weight: 800;
+line-height: 22px;
+letter-spacing: 6px;
+text-align: left;
+background: #FBD784;
+ */
+ /* color: #FBD784; */
+ /* scroll1 */
+ /* width: 3px
+height: 60px
+top: 326px
+left: 1837px
+angle: -0 deg */
+/* scroll2 */
+/* width: 3px
+height: 240px
+top: 326px
+left: 1837px
+opacity: 0.5px
+angle: -0 deg */
+/* background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%); */
+*{
+    margin: 0;
+    padding: 0;
+}
+*::selection{
+    background-color: rgb(234, 234, 158);
+    color: white;
+}
+body{
+    margin: 0px auto;
+    overflow-x: hidden;
+}
+main{
+    background: #0B1D26;
+    width: 1550px;
+    height: 4050px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    min-width: 1500px;
+    max-width: 1920px;
+}
+.playfair-display-font {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.clearfix::after{
+    clear: both;
+}
+.back1, .back2, .back3, .vg{
+    position: relative;
+}
+.back1 img{
+    width: 1550px;
+    margin-top: 0;
+    position: relative;
+    bottom: 200px;
+}
+.back2 img{
+    margin-top: -800px;
+    width: 1550px;
+} 
+.back3 img{
+    margin-top: -725px;
+    height: 700px;
+}
+.vg img{
+    margin-top: -1000px;
+    width: 1700px;
+    position: absolute;
+    height: 966px;
+}
+
+/* .linear{
+    top: 0px;
+    z-index: 2;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(180deg, rgba(11, 29, 38, 0) 60%, #0B1D26 61.38%);
+} */
+.left{
+    float: left;
+}
+.center{
+    text-align: center;
+}
+.right{
+    float: right;
+    margin-top: 0;
+}
+h1{
+    color: white;
+    font-weight: 100;
+}
+header{
+    top: 10px;
+    width: 1550px;
+    height: 25px;
+    z-index: 2;
+    position: absolute;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    /* justify-content: space-between; */
+    position: absolute;
+    height: 20px;
+    left: 700px;
+    top: 20px;
+}
+nav ul li{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul li:hover{
+    transform: scale(1.1);
+}
+header a:hover{
+    color: #FBD784;
+}
+.font{
+    font-family: 'Chronicle Display';
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    font-weight: 100;
+    margin-left: 40px;
+    position: absolute;
+    height: 20px;
+    z-index: 2;
+    font-weight: 900;
+}
+.font:hover{
+    transform: scale(1.2);
+}
+.word{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+.acc{
+    top: 40px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    position: absolute;
+    left: 1350px;
+}
+.acc:hover{
+    transform: scale(1.1);
+}
+.acc a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+@keyframes mntn{
+    from{
+        opacity: 0;
+        font-size: 10px;
+    }
+    to{
+        opacity: 1;
+        font-size: 33px;
+    }
+}
+.acc a:hover + #svg{
+    color: #FBD784;
+}
+.font{
+    font-family: 'Chronicle Display';
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    font-weight: 100;
+    margin-left: 40px;
+    position: absolute;
+    height: 20px;
+    z-index: 2;
+    font-weight: 900;
+    animation: mntn 1s ease;
+}
+.word{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+#svg{
+    width: 30px;
+    top: -2px;
+    bottom: 0;
+    right: 80px;
+    position: absolute;
+}
+.nav{
+    position: absolute;
+    top: 360px;
+    left: 80px;
+    /* width: 25px; */
+    height: 173px;
+}
+.rot{
+    rotate: 90deg;
+    bottom: 20px;
+}
+.rot a{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 1000;
+    left: 0px;
+
+}
+.rot a:hover{
+    color: #FBD784;
+    text-decoration: none;
+}
+.svg1{
+    width: 24px;
+    height: 24px;
+    top: 100px;
+    left: 40px;
+    padding: 2px, 2px, 2px, 2px;
+    position: absolute;
+    /* background: white; */
+}
+.svg2{
+    width: 24px;
+    height: 24px;
+    top: 150px;
+    position: absolute;
+    left: 42px;
+    top: 160px;
+}
+@keyframes name {
+    0%{
+        margin-top: 200px;
+        opacity: 0;
+    }
+    80%{
+        margin-top: -10px;
+    }
+    100%{
+        margin-top: 0px;
+        opacity: 1;
+    }
+}
+
+.namesite{
+    position: sticky;
+    position: absolute;
+    top: 290px;
+    left: 400px;
+    animation: name 1s linear;
+}
+svg:hover{
+    stroke: #FBD784;
+}
+.line-{
+    width: 72px;
+    height: 2px;
+    /* margin-top: 20px; */
+    background: #FBD784;
+    top: 8px;
+    position: absolute;
+}
+.yel1 a{
+    
+    font-size: 25px;
+    
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #FBD784;
+    text-decoration: none;
+}
+.yel1{
+    margin-left: 90px;
+    font-weight: 900;
+    top: -10px;
+    position: relative;
+    font-family: 'Gill Sans', sans-serif;
+}
+.yel1 a:hover{
+    color: #FBD784;
+    text-decoration: underline;
+}
+.namesite h1{
+    font-family: 'Chronicle Display';
+    font-size: 88px;
+    font-weight: 300;
+    line-height: 100px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 1000px;
+}
+.namesite h4{
+    margin-top: 40px;   
+}
+.namesite h4 a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.namesite h4 a:hover{
+    color: white;
+    text-decoration: none;
+}
+/* .scrolldown:hover svg{
+    transform: translate(0px,200px);
+    transition: transform all 2s linear
+} */
+.scrolldown{
+    width: 300px;
+}
+.sv svg{
+    width: 30px;
+    height: 30px;
+    left: 120px;
+    top: 240px;
+    position: absolute;
+}
+.navigation ul{
+    list-style-type: none;
+    text-align: right;
+    position: absolute;
+    margin-right: 1000px;
+    height: 200px;
+    color: black;
+}
+.navigation ul li{
+    margin-top: 20px;
+}
+.navigation ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navigation ul li a:hover{
+    color: #FBD784;
+    text-decoration: none;
+}
+.scroll1{
+    width: 3px;
+    height: 60px;
+    top: 10px;
+    left: 55px;
+    border-radius: 3px;
+    position: absolute;
+    background-color: white
+}
+.scroll2{
+    width: 3px;
+    height: 140px;
+    top: 70px;
+    left: 55px;
+    border-radius: 3px;
+    position: absolute;
+    background-color: white;
+    opacity: 40%;
+}
+.right{
+    float: right;
+}
+.navigation{
+    position: absolute;
+    left: 1400px;
+    top: 300px;
+}
+.content{
+    width: 1462px;
+}
+.content01{
+    z-index: 2;
+    position: absolute;
+    top: 900px;
+    left: 90px;
+    display: flex;
+    flex-direction: row;
+}
+.cislo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    z-index: 1;
+    position: relative;
+    font-size: 200px;
+    font-weight: 100;
+    opacity: 20%;
+    top: 20px;
+    left: 40px;
+    color: grey;
+}
+.con-text{
+    width: 600px;
+    z-index:2;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 141px;
+    left: 100px;
+    gap: 27px;
+}
+.con-info{
+    top: 20px;
+    position: relative;
+}
+.line-{
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    width: 75px;
+    height: 2px;
+    background: rgba(251, 215, 132, 1);
+}
+.yel{
+    font-family: 'Gill Sans, sans-serif';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 5px;
+    text-align: left;
+    position: absolute;
+    left: 95px;
+    width: 500px;
+    bottom: -10px;
+    color: rgba(251, 215, 132, 1);
+}
+.con-qw{
+    font-family: 'Chronicle Display';
+    font-size: 64px;
+    font-weight: 200;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.content01 img{
+    position: absolute;
+    top: -140px;
+    left: 800px;
+}
+.content02 img{
+    top: 450px;
+    left: 130px;
+    position: relative;
+}
+.readmore:hover{
+    transition: margin-left 0.5s linear;
+    margin-left: 50px;
+}
+.readmore:hover svg path style{
+    fill: black;
+}
+.readmore a{
+    color: white;
+    width: 87px;
+    height: 22px;
+    top: 417px;
+    text-decoration: none;
+}
+.readmore a:hover{
+    color: rgba(251, 215, 132, 1);
+    text-decoration: none;
+}
+.readmore svg{
+    width: 40px;
+    height: 50px;
+    top: 20px;
+    position: relative;
+}
+.content-text{
+    width: 600px;
+    z-index:2;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 1800px;
+    left: 750px;
+
+}
+.con-info{
+    top: 20px;
+    position: relative;
+}
+.line1-{
+    position: relative;
+    bottom: 25px;
+    left: 0px;
+    width: 75px;
+    height: 2px;
+    background: rgba(251, 215, 132, 1);
+}
+.yel1{
+    font-family: Arial, Helvetica;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: left;
+    position: absolute;
+    left: 10px;
+    width: 500px;
+    bottom: 500px;
+    top: -20px;
+    color: rgba(251, 215, 132, 1);
+}
+.yel2{
+    font-family: Arial, Helvetica;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: left;
+    position: absolute;
+    left: 100px;
+    bottom: -10px;
+    width: 500px;
+    color: rgba(251, 215, 132, 1);
+}
+.con-qwe{
+    font-family: 'Chronicle Display';
+    font-size: 64px;
+    font-weight: 200;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.cont-info{
+    top: 20px;
+    position: relative;
+}
+
+.content3{
+    top: 2000px;
+    position: absolute;
+}
+.img3{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 800px;
+}
+.text{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+.cislo2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    z-index: 1;
+    position: relative;
+    font-size: 200px;
+    font-weight: 900;
+    opacity: 20%;
+    top: 1670px;
+    left: 650px;
+    color: grey;
+}
+.readmor{
+    top: 10px;
+    position: relative;
+}
+.readmor:hover{
+    transition: margin-left 0.5s linear;
+    margin-left: 50px;
+}
+.readmor a{
+    color: white;
+    text-decoration: none;
+}
+.readmor a:hover{
+    color: rgba(251, 215, 132, 1);
+    text-decoration: none;
+}
+.readmor svg{
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    position: relative;
+}
+.content03{
+    z-index: 2;
+    position: absolute;
+    margin-top: 600px;
+    left: 90px;
+    display: flex;
+    flex-direction: row;
+}
+.cislo3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    z-index: 1;
+    position: relative;
+    font-size: 200px;
+    font-weight: 900;
+    opacity: 20%;
+    top: 170px;
+    left: 20px;
+    color: grey;
+}
+.content-text2{
+    width: 600px;
+    z-index:2;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 90px;
+    gap: 27px;
+}
+.con-info2{
+    top: 20px;
+    position: relative;
+}
+.line-{
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    width: 75px;
+    height: 2px;
+    background: rgba(251, 215, 132, 1);
+}
+.yel{
+    font-family: Arial, Helvetica;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: left;
+    position: absolute;
+    left: 95px;
+    width: 500px;
+    bottom: -10px;
+    color: rgba(251, 215, 132, 1);
+}
+.con-qw2{
+    font-family: 'Chronicle Display';
+    font-size: 64px;
+    font-weight: 200;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.readmore2 a{
+    color: white;
+    width: 87px;
+    height: 22px;
+    top: 417px;
+    text-decoration: none;
+}
+.readmore2:hover{
+    transition: margin-left 0.5s linear;
+    margin-left: 50px;
+}
+.readmore2 a:hover{
+    color: rgba(251, 215, 132, 1);
+    text-decoration: none;
+}
+.readmore2 svg{
+    width: 40px;
+    height: 50px;
+    top: 20px;
+    position: relative;
+}
+.name{
+    font-family: 'Chronicle Display';
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    font-weight: 100;
+    position: absolute;
+    height: 20px;
+    z-index: 2;
+    font-weight: 900;
+}
+.name a{
+    color: white;
+    text-decoration: none;
+}
+.name:hover{
+    transform: scale(1.1);
+}
+.name a:hover{
+    color: #FBD784;
+}
+footer{
+    margin: 1700px 100px 0 150px;
+}
+.i{
+    margin: 60px 100px 200px 0;
+    font-size: 20px;
+    color: white;
+    width: 300px;
+}
+.copyright a{
+    color: grey;
+    text-decoration: none;
+}
+.copyright a:hover{
+    color: white;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-around;
+}
+.link1 a{
+    color: white;
+    text-decoration: none;
+}
+span{
+    color: #FBD784;
+    font-size: 25px;
+}
+.link2 a{
+    color: white;
+    text-decoration: none;
+}
+.link2 a:hover,.link1 a:hover{
+    color: white;
+    text-decoration: underline;
+}
+/* весь width поделить на 2 !!!!!!!!!!!!!!!! */
